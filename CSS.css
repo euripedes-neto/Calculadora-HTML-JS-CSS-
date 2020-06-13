@@ -1,0 +1,62 @@
+*{
+     margin: 0;
+     padding: 0;
+     
+            }
+.button{
+     width: 50;
+     height: 50;
+     font-size: 25;
+     margin: 2;
+     cursor: pointer;
+     background: #607d8b;
+
+     color: white;
+         }
+ .textview{
+     width: 217;
+     margin: 5;
+     font-size: 25;
+     padding: 5;
+     border: 1px solid black;
+     color: black;
+           }
+.calc{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+      }
+.tab{
+     background: #2a205c;
+     height: 100%;
+    }
+.logo{
+     position: absolute;
+     top: 15%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+    }
+
+.inf{
+     position: absolute;
+     top: 25%;
+     left: 20%;
+     transform: translateX(-50%) translateY(-50%);
+     color: white;
+    }
+.inf2{
+     position: absolute;
+     top: 25%;
+     right: -5%;
+     transform: translateX(-50%) translateY(-50%);
+     color: white;
+    }
+.inf3{
+     position: absolute;
+     top: 80%;
+     right: 3%;
+	 text-align: center;
+     transform: translateX(-50%) translateY(-50%);
+     color: white;
+    }
